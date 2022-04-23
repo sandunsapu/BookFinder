@@ -1,3 +1,5 @@
+/* Project for UOK COST22534 subject - WS Niranjana | Nirmal | Dulanjaya | Bhagya Weerasinghe| */
+
 .fit { /* set relative picture size */
     max-width: 100%;
     max-height: 100%;
@@ -10,4 +12,84 @@
     position: relative;
     text-align: center;
     color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+/* .bottomcenter {
+    /* bottom: 600px;
+    text-align: center;
+    position:relative;
+    letter-spacing: 2px;
+    margin: auto;
+    width: 60%;
+
+} */
+
+.text-elight {
+	font-weight: 200;
+    font-weight: bold;
+}
+.heading-intro {
+	font-size: 36px;
+    color: white;
+    line-height: 1;
+}
+h1.header{
+    color: white;
+    font-size: 60px;
+    font-weight: 200;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.divcenter{
+    position: absolute;
+    margin: auto;
+    padding: 5px;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.heading-5 {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 1.5;
+	text-transform: none;
+}
+.heading-group {
+	will-change: transform;
+	transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0));
+}
+
+/* about us  section*/
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+    
+  }
+  
+  .left {
+    width: 50%;
+  }
+  
+  .right {
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
