@@ -116,7 +116,7 @@
   font-size: 0;
   width: 34px;
   height: 34px;
-  background: url("../img/header-3/search.svg") center/22px no-repeat;
+  background: url("../img/search.svg") center/22px no-repeat;
   border: 0; }
   @media (max-width: 939px) {
     .search__toggle {
@@ -124,7 +124,7 @@
       right: 5.5rem;
       top: 0.65rem; } }
   .search__toggle.active {
-    background: url("../img/header-5/close.svg") center/22px no-repeat; }
+    background: url("../img/close.svg") center/22px no-repeat; }
 
 .search__form {
   display: none; }

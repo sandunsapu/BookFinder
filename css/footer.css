@@ -1,0 +1,18 @@
+.text-center {
+    text-align: center;
+  }
+
+  .footer-links {
+    list-style-type: none;
+  }
+  @media screen {
+    .footer-links li {
+      display: inline;
+    }
+  }
+  footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+  }
