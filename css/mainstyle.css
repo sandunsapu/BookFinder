@@ -93,3 +93,14 @@ h1.header{
     display: table;
     clear: both;
   }
+
+  /* Footer */
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #c7f2ff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: auto;
+  }
