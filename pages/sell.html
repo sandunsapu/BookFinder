@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="../css/header.css">
         <link rel="stylesheet" href="../css/reset.min.css">
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/mainstyle.css">
     </head>
     <body>
 
@@ -110,12 +111,101 @@
         <script src="../js/header.js"></script>
 
         <!-- Sell Form Section Start -->
-        <div>
-            <form action="#" method="get">
-                
-            </form>
+
+        <div class="row" style="margin-left: 10%;">
+            <div class="column left">
+                <div class="containerss">
+                    <form action="">
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="fname">First Name</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="lname">Last Name</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="pnmu">Phone Number</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="pnum" name="phonenumber" placeholder="Your phone number..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="add">Address</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="add" name="address" placeholder="Your address..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="email">Email</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="email" name="email" placeholder="Your mail address..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="bnam">Name of the book</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="bnum" name="bookname" placeholder="Book name..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="quantity">Quantity</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="quantity" name="quantity" placeholder="Quantity..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="payment">Payment Method</label>
+                      </div>
+                      <div class="col-75">
+                        <select id="payment" name="payment">
+                          <option value="cash">Cash on delivery</option>
+                          <option value="online">Pay online</option>
+                          <option value="paypal">Paypal</option>
+                        </select>
+                      </div>
+                    </div>
+                    
+                    <br>
+                    <div class="row">
+                      <input type="submit" value="Submit">
+                    </div>
+                    </form>
+                </div>
+            </div>
+            <div style="" class="column right">
+                <img src="../img/seller.png" alt="seller">
+            </div>
         </div>
         <!-- Sell Form Section End -->
+
+        <!-- Footer Start -->    
+        <div class="footer" style="padding: 10px;">
+            <p style="font-weight: bold; font-size: large; line-height:3;">Copyright &copy; 2022, All Right Reserved bookfinder.lk</p>
+            <div>
+               <p>&lt;Coded by Sandun | Bhagya | Dulanjaya | Nirmal &gt;</p>
+            </div>
+        </div>
+        <!-- Footer End -->
 
     </body>
 </html>

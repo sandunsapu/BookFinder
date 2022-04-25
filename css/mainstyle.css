@@ -242,6 +242,7 @@ input[type=text], select, textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
+  text-align:left;
 }
 
 label {
@@ -295,5 +296,10 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+
+label{
+  text-align:left;
+}
+
 
 
