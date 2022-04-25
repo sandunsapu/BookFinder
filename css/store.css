@@ -32,7 +32,7 @@
   }
   
   .images {
-    height: 15em;
+    height: 20em;
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat;
@@ -50,26 +50,26 @@
     border-radius: 2%;
   }
   
-  /* IMAGES */
-  #image-1 {background-image: url("https://sc01.alicdn.com/kf/UT8.CaXX2NXXXagOFbXC/fresh-navel-oranges.jpg");}
+  /* IMAGES OF BOOKS */
+  #image-1 {background-image: url("../img/books/Anna\ Karenina\ by\ Leo\ Tolstoy\ \ .JPG");}
   
-  #image-2 {background-image: url("https://newenglandapples.files.wordpress.com/2014/10/img_5595.jpg")}
+  #image-2 {background-image: url("../img/books/Brave\ New\ World\ by\ Aldous\ Huxley\ .JPG")}
   
-  #image-3 {background-image: url("https://sc01.alicdn.com/kf/UT8ovSIXQNaXXagOFbXt/Fresh-Passion-Fruit-with-Best-Price-and.jpg")}
+  #image-3 {background-image: url("../img/books/Charitha\ Thunak\ by\ J.\ Jayathilka.JPG")}
   
-  #image-4 {background-image: url("http://www.foodmatters.com/media/images/articles/16-powerful-reasons-to-eat-pineapple.jpg")}
+  #image-4 {background-image: url("../img/books/Great\ Expectations\ by\ Charles\ Dickens\ \ .JPG")}
   
-  #image-5 {background-image: url("http://membrillo.com.au/wp-content/uploads/2016/11/bg-mango-01.jpg")}
+  #image-5 {background-image: url("../img/books/Invisible\ Man\ by\ Ralph\ Ellison\ \ .JPG")}
   
-  #image-6 {background-image: url("http://ell.h-cdn.co/assets/16/27/980x490/landscape-1467750721-gettyimages-146896572.jpg")}
+  #image-6 {background-image: url("../img/books/Nineteen\ Eighty-Four\ by\ George\ Orwell\ .JPG")}
   
-  #image-7 {background-image: url("http://www.hesca.org/wp-content/uploads/2016/08/banana.jpg")}
+  #image-7 {background-image: url("../img/books/One\ Hundred\ Years\ of\ Solitude\ by\ Gabriel\ García\ \ .JPG")}
   
-  #image-8 {background-image: url("http://www.baag.com.au/pictures/produce/plums2.jpg")}
+  #image-8 {background-image: url("../img/books/Senkottan\ by\ Mahinda\ Prasad\ Masimbula\ .JPG")}
   
-  #image-9 {background-image: url("https://ecowatchroar-img.rbl.ms/simage/https%3A%2F%2Fassets.rbl.ms%2F9458277%2F1200x600.jpg/2000%2C2000/J9vl96eLQCOEy3Xy/img.jpg")}
+  #image-9 {background-image: url("../img/books/The\ Call\ of\ the\ Wild\ by\ Jack\ London\ .JPG")}
   
-  #image-10 {background-image: url("https://www.parhlo.com/wp-content/uploads/2016/04/Valencia_market_-_lemons-1940x1454.jpg")}
+  #image-10 {background-image: url("../img/books/The\ Catcher\ in\ the\ Rye\ -\ J.\ D.\ Salinger.JPG")}
   
   .text-box {
     width: 100%;
