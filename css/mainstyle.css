@@ -1,5 +1,11 @@
 /* Project for UOK COST22534 subject - WS Niranjana | SAC Nirmal | MAD Dulanjaya | Bhagya Weerasinghe| */
 
+body{
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1077%26quot%3b)' fill='none'%3e%3cpath d='M1492.1763681047228 460.0147723771465L1405.8006116828476 431.9495878386633 1406.8907130860603 575.5458147407178z' fill='rgba(16%2c 103%2c 192%2c 0.18)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M691.4824889986172 159.71288889757727L701.9726735249693 9.69626101489078 541.4658611159307 149.22270437122515z' fill='rgba(16%2c 103%2c 192%2c 0.18)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M319.2596485252378 210.2262345442424L257.85248279312316 78.53814266284505 126.16439091172577 139.94530839495974 187.57155664384047 271.63340027635707z' fill='rgba(16%2c 103%2c 192%2c 0.18)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M543.0285680358595 141.25699028825716L586.6226214317879 179.15272275299017 621.6691934309232 94.81377642673098z' fill='rgba(16%2c 103%2c 192%2c 0.18)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1216.654%2c517.949C1264.235%2c519.428%2c1311.738%2c498.723%2c1335.336%2c457.38C1358.76%2c416.341%2c1352.344%2c365.003%2c1326.552%2c325.41C1302.99%2c289.241%2c1259.796%2c273.718%2c1216.654%2c275.195C1176.243%2c276.579%2c1140.077%2c297.97%2c1119.064%2c332.516C1097.118%2c368.596%2c1090.431%2c413.008%2c1110.098%2c450.379C1131.092%2c490.27%2c1171.598%2c516.549%2c1216.654%2c517.949' fill='rgba(16%2c 103%2c 192%2c 0.18)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M719.4751400380961 455.0709739698145L630.0866784491586 437.69561717281175 612.7113216521559 527.0840787617492 702.0997832410934 544.4594355587519z' fill='rgba(16%2c 103%2c 192%2c 0.18)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1077'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  background-attachment: fixed;
+  background-size: cover;
+}
 .fit { /* set relative picture size */
     max-width: 100%;
     max-height: 100%;
@@ -105,5 +111,189 @@ h1.header{
     height: auto;
   }
 
+/* contact form */
+  * {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #63b9de;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1377db;
+}
+
+.containercon {
+  border-radius: 5px;
+  background-color: #b1f1f7;
+  padding: 20px;
+}
+
+/* Social media icons */
+/* *,
+*:after,
+*:before {
+  box-sizing: inherit;
+} */
+
+.clip {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.svg--source {
+  display: none;
+}
+
+.svg--icon {
+  width: 100%;
+  max-width: 5rem;
+  height: 100%;
+  max-height: 5rem;
+  display: block;
+  margin: 0 auto;
+  fill: currentColor;
+}
+
+.wrapperds {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.share {
+  width: 5rem;
+  height: 5rem;
+  float: left;
+  margin: 0.5rem 1rem 0.5rem 0;
+  color: #353c4a;
+  border: 0.125rem solid #f3f3f3;
+  box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
+  border-radius: 50%;
+  transition: 250ms;
+}
+.share:last-child {
+  margin-right: 0;
+}
+.share:focus {
+  outline-color: inherit;
+}
+
+.twitter:hover, .twitter:focus {
+  color: #00ACED;
+  box-shadow: 0 0 24px 0 #00ACED;
+}
+
+.github:hover, .github:focus {
+  color: #4183c4;
+  box-shadow: 0 0 24px 0 #4183c4;
+}
+
+.pinterest:hover, .pinterest:focus {
+  color: #bd081c;
+  box-shadow: 0 0 24px 0 #bd081c;
+}
+
+.youtube:hover, .youtube:focus {
+  color: #cd201f;
+  box-shadow: 0 0 24px 0 #cd201f;
+}
+
+.facebook:hover, .facebook:focus {
+  color: #3b5998;
+  box-shadow: 0 0 24px 0 #3b5998;
+}
+
+.google:hover, .google:focus {
+  color: #dd4b39;
+  box-shadow: 0 0 24px 0 #dd4b39;
+}
+
+
+/* donation form */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #63b9de;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #1377db;
+}
+
+.containerss {
+  border-radius: 5px;
+  background-color: #b1f1f7;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
 
 
