@@ -39,11 +39,14 @@ body{
 }
 
 .searchbtn {
-    background: #336274;
+    background: #78c5e3;
     width: 13%;
     border-radius: 5px;
     position: relative;
     cursor: pointer;
+    text-align:center ;
+    bottom: 0;
+    
 }
 
 .searchbtn .fas{
